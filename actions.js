@@ -15,9 +15,7 @@ $("input").on('keypress', function(e){
 });
 
 $(".pskills").on("click", "span", function(event){
-	$(this).parent().fadeOut(500, function(){
-		$(this).remove();
-	});
+    $(this).parent().remove();
 });
 
 // Closes responsive menu when a scroll trigger link is clicked
