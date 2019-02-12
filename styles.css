@@ -1,0 +1,274 @@
+/*!
+ * Start Bootstrap - Resume v5.0.3 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+ body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 54px;
+    color: #868e96;
+    background: #ffffff;
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0;
+      padding-left: 17rem;
+    }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #343a40;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    line-height: 6.5rem;
+    font-weight: 900;    
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+  }
+ 
+  p.lead {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .resume-content p{
+    font-size: 1.5rem;
+  }
+
+  .resume-content div{
+    font-size: 1.5rem;
+  }
+  .subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;
+  }
+  
+  .icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+  }
+  
+  .icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .icons a:hover {
+    background-color: #9fa8da;
+  }
+  
+  .dev-icons {
+    font-size: 3rem;
+  }
+  
+  .dev-icons .list-inline-item i:hover {
+    color: #9fa8da;
+  }
+  
+  #sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+  
+  #sideNav .navbar-toggler:focus {
+    outline-color: #9fa8da;
+  }
+  
+  @media (min-width: 992px) {
+    #sideNav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+    }
+    #sideNav .navbar-brand {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    #sideNav .navbar-brand .img-profile {
+      max-width: 10rem;
+      max-height: 10rem;
+      border: 0.5rem solid #6f79a8;
+    }
+    #sideNav .navbar-collapse {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+    }
+  }
+  
+  section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem;
+  }
+  
+  section.resume-section .resume-item .resume-date {
+    min-width: none;
+  }
+  
+  @media (min-width: 768px) {
+    section.resume-section {
+      min-height: 100vh;
+    }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    section.resume-section {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+    }
+  }
+  
+  .bg-primary {
+    background-color: #9fa8da !important;
+  }
+  
+  .text-primary {
+    color: #6f79a8 !important;
+  }
+  
+  a {
+    color: #6f79a8;
+  }
+  
+  a:hover, a:focus, a:active {
+    color: #6f79a8;
+  }
+
+  .square{
+	height: 10px;
+  	width: 10px;
+    background-color:#4CAF50;
+    float:left;
+    padding: 0;
+	margin: 10px 5px 5px 5px;
+}
+.gskill p{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.language p{
+    float: left;
+    margin:0 10px 0 0;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.programming-skills p{
+	margin:0;
+    position: static;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input:focus {
+	border: 3px solid #2980b9;
+}
+
+.programming-skills input{
+	padding: 5px;
+	font-size: 15px;
+    margin-bottom:10px;
+    width: 30%;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+	color: #2980b9;
+}
+
+
+.programming-skills ul{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+.programming-skills i{
+	position: relative;
+	float: left;
+	margin-right:10px;
+}
+.programming-skills p{
+    padding: 0;
+}
+.delete{
+	height: 40px;
+	line-height: 40px;
+	transition: 0.2s linear;
+}
+
+.completed{
+	text-decoration: line-through;
+}
+
+.progress{
+    margin-top: 15x;
+    margin-bottom: 15px;
+}
